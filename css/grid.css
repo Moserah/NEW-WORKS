@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+}
+nav{
+    background: transparent;
+    height: 110px;
+}
+.logo{
+    width: 135px;
+    height: 52px;
+    left: 103px;
+    top: 47px;
+    border: 2.5px solid #E66C28; 
+    position: absolute; 
+    text-align: center;
+}
+.logo h1{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+}
+.checkbtn{
+    font-size: 34px;
+    float: right;
+    line-height: 110px;
+    margin-right: 50px;
+    display: none;
+}
+#check{
+    display: none;
+}
+nav ul{
+    float: right;
+    margin: 47px 50px 0px 0px
+}
+nav ul li{
+    display: inline-block;
+    line-height: 62px;
+}
+nav ul li a{
+    padding: 21px 13px;
+    font-size: 15px;
+    line-height: 21px; 
+    transition: 0.3s;  
+}
+nav ul li a:hover{
+    color: #E66C28;
+}
+.active{
+    color: #E66C28;
+}
+header{
+    background-image: url(../imaga/photo-1529847556963-9653a9366021\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color-burn;
+    padding-bottom: 46px;
+}
+
+/* welcome  */
+.welcome-text{
+    text-align: center;
+    padding-top: 320px;
+}
+h4{
+    font-size: 20px;    
+}
+.welcome-text h4:first-child{
+    padding-bottom: 10px;
+}
+.welcome-text h1{
+    padding: 5px 0px;
+}
+h1{
+    font-size: 53px;
+}
+h1 span{
+    color: #E66C28;
+}
+.welcome-button,.aboutme-button,.song-button,.track-button,.contact-button{
+    background: transparent;
+    border: 2px solid #E66C28;
+    width: 263px;
+    height: 50px;
+    color: #E66C28;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 38px 0px;
+}
+.welcome-button:hover,.aboutme-button:hover,.song-button:hover,.track-button:hover,.contact-button:hover{
+    box-shadow: 0 0 30px #E66C28;
+    transition: 0.3s;
+    background: #E66C28;
+    color: #000000;
+    font-weight: 600;
+}
+.side-menus,.side-menus2,.side-menus3,.side-menus4,.side-menus5,.side-menus6{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    display: block;
+    width: 50px;
+}
+.rectangle{
+    width: 2px;
+    height: 200px;
+    background: #ffffff;
+    left: 28px;
+    margin-left: 28px;
+}
+.icons{
+    margin-top: 24px;
+    display: block;
+    margin-left: 10px;
+}
+.icons img{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.down{
+    text-align: center;
+    margin-top: 110px;
+}
+
+/* Aboutme  */
+#aboutme{
+    background-image: url(../imaga/photo-1547357812-4a336d835928-01\ 1.png); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 71px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color-burn;
+}
+.aboutme-title{
+    text-align: center;
+}
+h2{
+    font-size: 34px;
+}
+h2 span{
+    color: #E66C28;
+}
+.aboutme-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
+    padding-left: 22px;
+}
+.orange-rectangle{
+    width: 250px;
+    height: 570px;
+    background: #E66C28;
+    position: relative;
+}
+.aboutme-img{
+    width: 420px;
+    height: 530px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.aboutme-image{
+    width: 500px;
+}
+.side-menus2{
+    top: 1150px
+}
+.aboutme-details{
+    display: flex;
+}
+.aboutme-text{
+    padding-top: 120px;
+}
+.aboutme-text p{
+    padding-bottom: 44px;
+    width: 550px;
+    height: 126px;
+}
+p,.aboutme-details ul li{
+    font-size: 15px;
+}
+.aboutme-details .a{
+    font-weight: bolder;
+    display: block;
+    width: 105px;    
+}
+.aboutme-details .a li:not(:last-child),.aboutme-details .b li:not(:last-child){
+    padding-bottom: 16px;
+}
+.aboutme-details .b{
+    margin-left: 40px;
+}
+.aboutme-button{
+    width: 139px;
+    height: 50px;
+    margin: 47px 0px 0px 0px;
+}
+
+/* Acheievements */
+.achievements{
+    padding: 78px 0px;
+    background-image: url(../imaga/photo-1547357812-4a336d835928-01\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color-burn;
+    background-size: cover;
+    justify-content: center;
+}
+.albums-created{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 204px);
+    grid-template-rows: repeat(2, 175px);
+    grid-row-gap: 40px; 
+    grid-column-gap: 40px;   
+}
+.albums-created{
+    margin-top: 40px;
+} 
+.album-details{
+    display: block;
+    width: 204px;
+    text-align: center;
+    margin: 0px 25px;
+}
+.icon-border{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #E66C28;
+    border-radius: 150px;
+    margin: 0px 50px;
+}
+.album-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+}
+.album-text{
+    text-align: center;
+    margin-top: 30px;   
+}
+.side-menus3{
+    top: 1870px
+} 
+/* songs  */
+.songs{
+    background-image: url(../imaga/photo-1547357812-4a336d835928-01\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color-burn;
+    padding-top: 45px;
+}
+.song-carousel{
+    display: none;
+}
+.song-menu ul{
+    justify-content: center;
+    margin: 48px 0px 60px 450px;
+}
+.song-menu ul li{
+    display: inline-block;
+}
+.song-menu ul li a{
+    font-size: 15px;
+    padding: 11px 28px;
+    transition: 0.5s;
+}
+.song-menu .active,.song-menu ul li a:hover{
+    background: #E66C28;
+    color: #ffffff;
+}
+.all-songs{
+    display: block;
+    text-align: center;
+}
+.small-songs,.big-songs{
+    display: flex;
+    justify-content: center;
+}
+.song-image{
+    width: 100%;
+    height: 100%;
+}
+.song1,.song2{
+    width: 280px;
+    height: 330px;
+    margin: 0px 16px;
+    position: relative;
+}
+.song2{
+    width: 310px;
+}
+.song3{
+    width: 450px;
+    height: 330px;
+    margin: 0px 20px;
+    margin-top: 35px;
+    position: relative;
+}
+.play-bar{
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.play-bar-title{
+    margin-right: 40px;
+    text-align: start;
+}
+.song2 .play-bar-title{
+    margin-right: 80px;
+}
+.song2 .play-bar{
+    height: 110px;
+}
+.song3 .play-bar-title{
+    margin-right: 150px;
+}
+h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.play-bar-title p{
+    font-size: 15px;
+}
+.play-bar a img{
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+}
+.play-bar a img:hover,.playback img:hover,.volume img:hover{
+    background: rgb(192, 88, 32);
+    background-clip: content-box;
+    border-radius: 150px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #E66C28;
+}
+.song-button{
+    width: 188px;
+    height: 50px;
+    margin: 59px 0px;
+}
+.side-menus4{
+    top: 2720px
+}
+
+/* tracks */
+.latest-tracks,.carousel-arranger{
+    padding-top: 56px;
+    padding-bottom: 48px;
+    background-image: url(../imaga/photo-1547357812-4a336d835928-01\ 1.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-arranger{
+    padding: 0px;
+}
+.track-carousel{
+    display: none;
+}
+.track{
+    width: 80%;
+    height: 130px;
+    background: #0D0C0C;
+    display: flex;
+    margin: 51px 0px 0px 120px;
+}
+.track-list{
+    text-align: center;
+    position: relative;
+}
+.track-image{
+    width: 190px;
+    height: 130px;
+}
+.track-img{
+    width: 100%;
+    height: 100%;
+}
+.track-area{
+    padding: 10px 0px 0px 51px;
+    margin-right: 170px;
+}
+.track-text{
+    text-align: start !important;
+}
+.track-text h3{
+    padding-bottom: 9px;
+    font-size: 26px;
+}
+.track-text p{
+    padding-bottom: 10px;
+}
+.controllers{
+    display: flex;
+}
+.playback,.volume{
+    display: flex;
+    margin: 0px 32px 0px 0px;
+}
+.playback img,.volume img{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.leveller,.vol-leveller{
+    width: 140px;
+    height: 10px;
+    border-radius: 20px;
+    background: rgba(230, 108, 40, 0.28);
+    margin-top: 12px;
+}
+.leveller-half{
+    width: 80px;
+    height: 100%;
+    background: #E66C28;
+    border-radius: 20px;
+}
+.vol-leveller{
+    width: 110px;
+    background: #E66C28;
+}
+.track-button{
+    width: 130px;
+    height: 50px;
+    margin: 40px 0px 0px 0px;
+}
+.side-menus5{
+    top: 3650px
+}
+
+/* footer  */
+footer{
+    padding-top: 56px;
+    background-image: url(../imaga/photo-1547357812-4a336d835928-01\ 1.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+}
+.contact form{
+    display: block;
+    width: 400px;
+}
+input{
+    font-size: 14px;
+    color: #ffffff;
+    width: 380px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    height: 76px;
+    background: transparent;
+    outline: none;
+}
+input:focus{
+    border-bottom: 1px solid #E66C28;
+}
+input::placeholder{
+    line-height: 120px;
+}
+.contact-button{
+    width: 130px;
+    height: 50px;
+    margin: 45px 0px 0px 0px;
+}
+.location{
+    margin-top: 150px;
+    padding-top: 50px;
+}
+.contact,.location{
+    margin: 0px 50px;
+}
+.home{
+    display: flex;
+    margin-bottom: 25px;
+}
+.locale-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 150px;
+    margin-right: 25px;
+}
+.locale-icon:hover,.locale-icon:hover .locale-icon i{
+    background: #ffffff;
+    transition: 0.3s;
+}
+.locale-icon:hover i{
+    color: #000000;
+}
+.home i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+.locale h4{
+    padding-bottom: 3px;
+}
+.foot-line{
+    height: 68px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.75);
+    margin-top: 100px;
+    padding: 30px;
+}
+.foot-line p{
+    color: rgba(255, 255, 255, 0.5)
+}
+.side-menus6{
+    top: 4310px
+}

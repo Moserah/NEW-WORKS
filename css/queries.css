@@ -1,0 +1,906 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:1024px){
+    .rectangle{
+        height: 180px;
+    }
+    .icons img{
+        width: 30px;
+        height: 30px;
+    }
+    .side-menus,.side-menus2,.side-menus3,.side-menus4,.side-menus5,.side-menus6{
+        left: 30px;
+        top: 340px;
+    }
+    /* aboutme  */
+    .aboutme-text{
+        padding-top: 40px;
+    }
+    .aboutme-details .a{
+        width: 88px;    
+    }
+    .aboutme-details .b{
+        width: 180px;
+    }
+    p,.aboutme-details ul li{
+        font-size: 14px;
+    }
+    .aboutme-text p{
+        width: 380px;
+    }
+    .orange-rectangle{
+        width: 180px;
+        height: 430px;
+    }
+    .aboutme-img{
+        width: 370px;
+        height: 400px;
+        left: 15px;
+        top: 15px;
+    }
+    .aboutme-image{
+        width: 530px;
+    }
+    .aboutme-button{
+        margin: 27px 0px 0px 0px;
+        height: 45px;
+    }
+    .side-menus2{
+        top: 1120px
+    }
+    /* Achievements */
+    .album-details{
+        width: 185px;
+        margin: 0px 18px;
+    }
+    .icon-border{
+        width: 70px;
+        height: 70px;
+        margin: 0px 55px;
+    }
+    .album-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .side-menus3{
+        top: 1730px
+    }
+    /* songs  */
+    .song-menu ul{
+        margin: 48px 0px 60px 270px;
+    }
+    .song1,.song2{
+        width: 225px;
+        height: 300px;
+        margin: 0px 13px;
+    }
+    .song2{
+        width: 270px;
+    }
+    .song3{
+        width: 370px;
+        height: 330px;
+        margin: 20px 15px 0px 15px;
+    }
+    .play-bar{
+        padding-top: 35px;
+    }
+    .song1 .play-bar-title h3,.song2 .play-bar-title h3,.track-text h3,.locale h4{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .song1 .play-bar-title p,.song2 .play-bar-title p,.track-text p,.locale p{
+        font-size: 13.5px;
+    }
+    .side-menus4{
+        top: 2530px
+    }
+    .track-area{
+        margin-right: 60px;
+        width: 350px;
+        padding: 12px 0px 0px 30px;
+    }
+    .track-image{
+        width: 170px;
+    }
+    .leveller,.vol-leveller{
+        width: 70px;
+        height: 7px;
+    }
+    .leveller-half{
+        width: 42px;
+    }
+    .vol-leveller{
+        width: 60px;
+    }
+    .aboutme-button,.song-button,.track-button,.contact-button{
+        width: 130px;
+        height: 45px;
+    }
+    .playback img,.volume img{
+        width: 25px;
+        height: 25px;
+    }
+    .side-menus5{
+        top: 3455px
+    }   
+    .contact-info{
+        padding-top: 48px;
+    }
+    input{
+        font-size: 13px;
+        width: 350px;
+        height: 70px;
+    } 
+    .contact,.location{
+        margin: 0px;
+    }
+    .location{
+        padding-top: 50px;
+    }
+    .locale-icon{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .home i{
+        font-size: 21px;
+    }
+    .foot-line{
+        margin-top: 70px;
+    }
+    .side-menus6{
+        top: 4040px
+    }
+}
+@media screen and (max-width:966px){
+    header{
+        padding-bottom: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        left: 0;
+        top: -136vh;
+        padding: 40px 0px;
+        background: rgba(0,0,0,.9);
+        width: 100%;
+        height: 130vh;
+        z-index: 1;
+        color: #000000;
+        text-align: center;
+        transition: 0.7s all;
+        transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    }
+    nav ul li{
+        display: block;
+        padding-bottom: 25px;
+    }
+    nav ul li a{
+        padding: 18px 13px;
+        font-size: 24px;
+    }
+    .active,nav ul li a:hover{
+        color: #E66C28;
+    }
+    #check:checked ~ ul{
+        top: 105px;
+    }
+}
+@media screen and (max-width:768px){
+    .logo{
+        width: 130px;
+        left: 50px;
+        top: 37px;
+        height: 48px;
+    }
+    .logo h1{
+        font-size: 18px !important;
+        line-height: 40px;
+    }
+    .rectangle{
+        height: 150px;
+    }
+    .icons{
+        margin-left: 15px;
+    }
+    .icons img{
+        width: 23px;
+        height: 23px;
+    }
+    .side-menus,.side-menus2,.side-menus3,.side-menus4,.side-menus5,.side-menus6{
+        left: 20px;
+    } 
+    h1{
+        font-size: 45px;
+    }
+    h4{
+        font-size: 18px;    
+    }
+    .welcome-button{
+        width: 200px;
+        height: 48px;
+    }
+    .down{
+        margin-top: 110px;
+    }
+    .down img{
+        width: 48px;
+        height: 48px;
+    }
+    /* aboutme  */
+    .orange-rectangle{
+        width: 140px;
+        height: 380px;
+    }
+    .aboutme-img{
+        width: 240px;
+        height: 350px;
+        left: 17px;
+        top: 17px;
+    }
+    .aboutme-image{
+        width: 500px;
+    }
+    .aboutme-text{
+        padding-top: 35px;
+    }
+    .aboutme-text p{
+        width: 300px;
+        font-size: 12.8px;
+    }
+    .aboutme-details{
+        padding-top: 10px;
+    }
+    .aboutme-details .a li:not(:last-child),.aboutme-details .b li:not(:last-child){
+        padding-bottom: 9px;
+        font-size: 12.8px;
+    }
+    .aboutme-button,.song-button,.track-button,.contact-button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .side-menus2{
+        top: 1060px
+    }
+    /* achievements */
+    .icon-border{
+        width: 63px;
+        height: 63px;
+        margin: 0px 50px;
+    }
+    .album-icon{
+        width: 28px;
+        height: 28px;
+    }
+    .ho1,.ho2,.ho3,.album-text h2{
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+    .album-details{
+        width: 155px;
+        margin: 0px 25px;
+    }
+    .side-menus3{
+        top: 1650px
+    }
+    /* songs  */
+    .song-menu ul{
+        margin: 48px 0px 60px 190px;
+    }
+    .song-menu ul li a{
+        padding: 10px 19px;
+    }
+    .small-songs{
+        flex-wrap: wrap;
+    }
+    .song2{
+        order: 2;
+        width: 280px;
+        height: 310px;
+    }
+    .song1{
+        margin: 0px 9px 20px 9px;
+    }
+    .song3{
+        width: 290px;
+        height: 310px;
+        margin: 20px 9px 0px 9px;
+    }
+    .song3 .play-bar-title{
+        margin-right: 90px;
+    }
+    /* tracks  */
+    .track{
+        width: 70%;
+        height: 170px;
+        flex-wrap: wrap;
+    }
+    .track-area{
+        width: 150px;
+        padding: 15px 0px 0px 30px;
+        height: 110px;
+        display: block;
+        margin-right: 60px;
+    }
+    .track-image{
+        width: 170px;
+        height: 170px;
+    }
+    .leveller,.vol-leveller{
+        width: 80px;
+        height: 5px;
+    }
+    .leveller-half{
+        width: 52px;
+    }
+    .vol-leveller{
+        width: 70px;
+    }
+    .track .track-button{
+        margin: -50px 0px 0px 200px;
+    }
+    .track-button{
+        margin-top: 60px;
+    }
+    .playback img,.volume img{
+        width: 22px;
+        height: 22px;
+    }
+    .side-menus5{
+        top: 3700px
+    }
+    /* footer  */
+    .contact-info{
+        padding-top: 40px;
+    }
+    input{
+        font-size: 12px;
+        width: 250px;
+        height: 70px;
+    }   
+    .contact,.location{
+        margin: 0px;
+    }
+    .contact form{
+        width: 290px;
+    }
+    .location{
+        padding-top: 50px;
+    }
+    .locale-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .locale h4{
+        font-size: 16px;
+    }
+    .locale p{
+        font-size: 12px;
+    }
+    .home i{
+        font-size: 18px;
+    }
+    .side-menus6{
+        top: 4400px
+    }
+}
+@media screen and (max-width:757px){
+   
+    .track-image{
+        width: 170px;
+        height: 170px;
+    }
+    .leveller,.vol-leveller{
+        width: 80px;
+        height: 5px;
+    }
+    .leveller-half{
+        width: 52px;
+    }
+    .vol-leveller{
+        width: 70px;
+    }
+   .playback img,.volume img{
+        width: 25px;
+        height: 25px;
+    }
+    .playback img,.volume img{
+        width: 22px;
+        height: 22px;
+    }
+}
+@media screen and (max-width:619px){
+    .rectangle{
+        height: 90px;
+    }
+    .icons img{
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .side-menus,.side-menus2,.side-menus3,.side-menus4,.side-menus5,.side-menus6{
+        left: 10px;
+    } 
+    /* aboutme  */
+    .aboutme-box{
+        display: block;    
+    }
+    .orange-rectangle{
+        width: 180px;
+        height: 327px;
+    }
+    .aboutme-img{
+        width: 260px;
+        height: 290px;
+        left: 17px;
+        top: 17px;
+    }
+    .aboutme-image{
+        width: 257px;
+        margin-left: 50px;
+    }
+    .aboutme-text p{
+        width: 450px;
+    }
+    .aboutme-details .a li:not(:last-child),.aboutme-details .b li:not(:last-child),.aboutme-text p{
+        font-size: 16px;
+    }
+    .side-menus2{
+        top: 1300px
+    }
+    .icon-border{
+        width: 70px;
+        height: 70px;
+        margin: 0px 55px;
+    }
+    .album-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .album-text h2{
+        padding-bottom: 5px;
+        font-size: 30px;
+    }
+    .album-details{
+        width: 185px;
+        margin: 0px;
+    }
+    .albums-created{
+        grid-template-columns: repeat(2, 170px);
+        grid-row-gap: 20px; 
+        grid-column-gap: 80px;   
+    }
+    .album-text{
+        padding: 0px 40px;
+    }
+    .side-menus3{
+        top: 2150px
+    }
+    /* songs  */
+    .song-carousel{
+        display: unset;
+        /* width: 490px; */
+    }
+    .song-carousel .all-songs{
+        justify-content: center;
+        width: 400px;        
+    }
+    .song-menu ul{
+        margin: 48px 0px 60px 120px;
+    }
+    .big-songs{
+        flex-wrap: wrap;
+    }
+    .song3{
+        width: 330px;
+        height: 330px;
+    }
+    .side-menus4{
+        top: 3230px
+    }
+    /* track  */
+    .latest-tracks{
+        display: none;
+    }
+    .track-carousel{
+        display: unset;
+    }
+    .track-carousel .aboutme-title{
+        padding: 20px 0px;
+    }
+    .track-carousel .track{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .track-carousel .track-area{
+        padding: 10px 0px 0px 20px;
+        width: 170px;
+        height: 200px;
+    }
+    .track-carousel .track-image{
+        width: 200px;
+        height: 200px;
+    }
+    .track-carousel .track-button{
+        margin: 20px 0px 0px 0px;
+        width: 170px;
+    }
+    .track-carousel .controllers{
+        display: block;
+    }
+    .track-carousel .playback,.track-carousel .volume{
+        display: flex;
+        margin: 0px 0px 10px 0px;
+    }
+    .track-carousel .playback img,.track-carousel .volume img{
+        margin-right: 20px;
+        width: 33px;
+        height: 33px;
+    }
+    .track-carousel .leveller, .track-carousel .vol-leveller{
+        width: 100px;
+        height: 5px;
+    }
+    .track-carousel .leveller-half{
+        width: 52px;
+    }
+    .track-carousel .track-text h3{
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+    .track-carousel .track-text p{
+        padding-bottom: 20px;
+    }  
+}
+@media screen and (max-width:550px){
+    h1{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .aboutme-text p{
+        width: 370px;
+        font-size: 13px;
+    }
+    .aboutme-details .a li:not(:last-child),.aboutme-details .b li:not(:last-child),.aboutme-text p{
+        font-size: 13px;
+    }
+    .aboutme-details{
+        margin-top: 20px;
+    }
+    .carousel-arranger{
+        padding-bottom: 60px;
+    }
+    .song-menu ul{
+        margin: 48px 0px 60px 50px;
+    }
+    .track-list{
+        width: 480px !important;
+    }
+    .track-carousel .track{
+        width: 100%;
+    }
+    .track-carousel .track-image{
+        width: 180px;
+    }
+    .track-carousel .track-area{
+        width: 170px;
+        padding-left: 10px;
+    }
+    .track-carousel .track-button{
+        width: 150px;
+    }   
+    input{
+        width: 170px;
+        height: 40px;
+    }   
+    .contact,.location{
+        margin: 0px;
+    }
+    .contact form{
+        width: 190px;
+    }
+    .contact{
+        margin-left: 10px;
+    }
+    .location{
+        padding-top: 10px;
+    }
+    .locale-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .locale h4{
+        font-size: 14px;
+    }
+    .locale p{
+        font-size: 10px;
+    }
+    .home i{
+        font-size: 13px;
+    }
+    .side-menus6{
+        top: 4900px
+    }
+}
+@media screen and (max-width:500px){
+    .track-list{
+        width: 450px !important;
+    }
+    .albums-created{
+        grid-column-gap: 20px;   
+    }   
+}
+@media screen and (max-width:430px){
+    .track-carousel .track{
+        flex-wrap: nowrap;
+        padding: unset;
+    }
+    .track-carousel .track-area{
+        width: 170px !important;
+        padding: 0;
+        margin-top: 20px;        
+    }
+}
+@media screen and (max-width:425px){
+    .logo{
+        width: 100px;
+        left: 30px;
+        top: 37px;
+        height: 48px;
+    }
+    .logo h1{
+        font-size: 18px !important;
+        line-height: 40px;
+    }
+    .side-menus,.side-menus2,.side-menus3,.side-menus4,.side-menus5,.side-menus6{
+        left: 2px;
+        top: 280px;
+        width: 30px;
+    }
+    #aboutme{
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    .aboutme-title h2{
+        font-size: 29px;
+    }
+    .aboutme-box{
+        justify-content: center;
+        padding-top: 51px;
+        padding-left: 30px;
+    }
+    .orange-rectangle{
+        width: 180px;
+        height: 327px;
+    }
+    .aboutme-img{
+        width: 260px;
+        height: 290px;
+        left: 17px;
+        top: 17px;
+    }
+    .aboutme-image{
+        width: 257px;
+        margin-left: 0px;
+        padding-top: 51px;
+        padding-left: 0px;
+    }
+    .aboutme-text p{
+        width: 300px;
+        font-size: 12px;
+    }
+    .track-list{
+        width: 380px !important;
+        height: 240px !important;        
+    }    
+    .track-carousel .track-image{
+        width: 180px !important;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .track-carousel .track-area{
+        padding: 0px 0px 0px 20px;
+    }
+    .track-carousel .track-text h3{
+        font-size: 20px;
+    }
+    .track-carousel .track-text p{
+        font-size: 13px;
+    }  
+    .track-carousel .playback img,.track-carousel .volume img{
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .track-carousel .leveller, .track-carousel .vol-leveller{
+        width: 70px;
+        height: 5px;
+    }
+    .track-carousel .leveller-half{
+        width: 50px;
+    }
+    .track-carousel .track-button{
+        width: 130px;
+        margin: 10px 0px;
+    }     
+}
+@media screen and (max-width:375px){
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    nav ul{
+        height: 122vh;
+    }
+    .logo{
+        width: 100px;
+        left: 50px;
+        top: 37px;
+        height: 48px;
+    }
+    .logo h1{
+        font-size: 18px !important;
+        line-height: 40px;
+    }
+    .down{
+        margin-top: 100px;
+    }
+    .welcome-text{
+        text-align: center;
+        padding-top: 90px;
+    }
+    .welcome-text h1{
+        font-size: 35px;
+    }
+    .welcome-text h4{
+        font-size: 14.5px;
+    }
+    .rectangle{
+        height: 70px;
+        margin-left: 12px;
+    }
+    .icons img{
+        margin-bottom: 10px;
+        cursor: pointer;
+        width: 17px;
+        height: 17px;
+    }
+    .icons{
+        margin-left:4px;
+    }
+    .icon-border{
+        width: 60px;
+        height: 60px;
+        margin: 0px 40px;
+    }
+    .album-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .album-text h2{
+        font-size: 24px;
+    }
+    .album-details{
+        width: 140px;
+        margin: 0px;
+    }
+    .albums-created{
+        grid-template-columns: repeat(2, 140px);
+        grid-row-gap: 20px; 
+        grid-column-gap: 20px;   
+    }
+    .album-text p{
+        width: 100px;
+        margin-left: -25px;
+    }
+    .orange-rectangle{
+        width: 170px;
+        height: 290px;
+    }
+    .aboutme-img{
+        width: 250px;
+        height: 250px;
+    }
+    .aboutme-image{
+        width: 257px;
+        margin-left: 15px;
+        padding-top: 0px;
+    }
+    .contact-info{
+        display: block;
+        padding: 0px 0px 0px 45px; 
+    }
+    .contact,.location{
+        margin: 30px 0px;
+    }
+    .song-menu ul{
+        margin: 48px 0px 60px 10px;
+    }
+    .song-menu ul li a{
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+    .song1,.song2,.song3{
+        width: 290px;
+        height: 330px;
+    }
+    .track-list{
+        width: 350px !important;
+        height: 260px !important;     
+        padding: 0;   
+    }   
+    .track-carousel .track-image{
+        height: 150px;
+        margin: 0;
+        width: 150px !important;
+    }
+    .track-carousel .track{
+        padding: 15px 0px 0px 13px;
+    }
+    .track-carousel .track-area{
+        width: 150px !important;
+        padding-left: 13px;
+        margin: 0;
+    }
+    .play-bar-title{
+        margin-right: 90px !important;
+    }
+    .dots {
+        top: 9px !important;
+        width: 13px !important;
+        height: 13px !important;
+        margin: 0 4px;
+        position: relative;
+        border-radius: 50%;
+        display: inline-block;
+        background: rgba(0, 0, 0, .4);
+        transition: 0.6s linear;
+    }
+    .pre, .nxt {
+        height: 50px !important;
+    }
+    input{
+        width: 200px;
+        height: 40px;
+    }   
+    .contact-button{
+        margin: 30px 0px 0px 0px;
+    }
+    .locale h4{
+        font-size: 15px;
+    }
+    .locale p{
+        font-size: 12px;
+    }
+    .foot-line{
+        margin-top: 0px;
+    }
+    .side-menus2{
+        top: 800px !important;
+    }
+    .side-menus3{
+        top: 1900px;
+    }
+    .side-menus4{
+        top: 3400px;
+    }
+    .side-menus5{
+        display: none;
+    }
+    .side-menus6{
+        top: 5000px;
+    }
+
+}
